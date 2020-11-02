@@ -1,0 +1,6 @@
+/target
+**/*.rs.bk
+*.dic
+*.o
+sample
+build

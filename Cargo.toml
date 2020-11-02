@@ -1,0 +1,16 @@
+[package]
+name = "sudachi-lib"
+version = "0.1.0"
+authors = ["Yujiro Takahashi <yujiro@croco.co.jp>"]
+edition = "2018"
+license = "MIT"
+
+[lib]
+name = "sudachi"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "*"
+
+[dependencies.sudachiclone]
+path = "../sudachiclone-rs"
